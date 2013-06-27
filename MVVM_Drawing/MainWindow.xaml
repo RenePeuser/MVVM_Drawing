@@ -1,0 +1,14 @@
+﻿<Window x:Class="MVVM_Drawing.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="350" Width="525">
+    <Canvas Name="myCanvas">
+        <Polyline Name="myPolyline"
+              MouseDown="Polyline_MouseDown"
+              Canvas.Left="75"
+              Canvas.Top="50"
+              Points="25,25 0,50 25,75 50,50 25,25 25,0" 
+              Stroke="Blue"
+              StrokeThickness="10"/>
+    </Canvas>
+</Window>
